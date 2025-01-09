@@ -11,8 +11,7 @@
 - Login Screen with email and password validation
 - Home Screen displaying a list of users with names fetched from an API
 - Search functionality to filter users by name
-- Detail Screen to show additional user information (email, phone)
-- Error handling for failed API requests
+- Detail Screen to show additional user information 
 
 ## Technologies Used
 
