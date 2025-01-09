@@ -1,16 +1,47 @@
-# daftar_nama_app
 
-A new Flutter project.
+---
 
-## Getting Started
+# List Name User
 
-This project is a starting point for a Flutter application.
+**List Name User** is a simple Flutter application developed with **Flutter 3.24.2**. The app fetches and displays a list of user names by utilizing the API from [JSONPlaceholder](https://jsonplaceholder.typicode.com).
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Splash Screen
+- Login Screen with email and password validation
+- Home Screen displaying a list of users with names fetched from an API
+- Search functionality to filter users by name
+- Detail Screen to show additional user information (email, phone)
+- Error handling for failed API requests
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+
+- **Flutter 3.24.2** for UI development
+- **JSONPlaceholder API** to fetch user data
+
+## Installation
+
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/litauven/-List-Name-User.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd List-Name-User
+   ```
+
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the app:
+   ```bash
+   flutter run
+   ```
+
+
+
